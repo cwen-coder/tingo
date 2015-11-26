@@ -1,6 +1,6 @@
 # tingo     
 golang 实现抓取网页模板   
-#### 用法 ubuntu14.04 
+#### ubuntu14.04 用法
 ```
 git clone https://github.com/cwen-coder/tingo   
 cd $GOPATH/src/
