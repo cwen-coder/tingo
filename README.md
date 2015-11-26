@@ -1,2 +1,24 @@
 # tingo     
-golang 实现网页模板爬虫  
+golang 实现抓取网页模板   
+#### 用法 ubuntu14.04 
+```
+git clone https://github.com/cwen-coder/tingo   
+cd $GOPATH/src/
+mkdir test   
+touch test.go  
+```  
+
+#### test.go  
+``` 
+package main 
+
+import (
+    "github.com/cwen-coder/tingo" 
+)
+
+func main() {
+    tmp := tingo.NewTingo()
+    tmp.Fetch("http://cwengo.com", "/home/yin_cwen/tingoTest")  //url  path
+}
+```  
+
