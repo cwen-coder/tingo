@@ -1,4 +1,4 @@
-package tingo
+package tingoOne
 
 import (
 	"os"
@@ -7,8 +7,8 @@ import (
 
 func Test_Fetch(t *testing.T) {
 	tmp := NewTingo()
-	tmp.Fetch("http://cwengo.com/about", "/home/yin_cwen/tingoTest")
-	if tmp.agreementAndHost != "http://cwengo.com" {
+	tmp.Fetch("http://imooc.com", "/home/yin_cwen/tingoTest")
+	if tmp.agreementAndHost != "http://imooc.com" {
 		t.Error("Fetch　函数 url(parseUrl) 处理失败")
 	} else {
 		t.Log("Fetch 函数 url(parseUrl) 处理成功")
